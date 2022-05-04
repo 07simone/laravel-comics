@@ -60,10 +60,10 @@
                     Follow Us
                 </span>
                 <a href="#"><img src="{{asset("images/footer-youtube.png")}}" alt="Logo Youtube"></a>
-                <a href="#"><img src="{{asset("images/footer-facebook.png")}}" alt="Logo Facebook"></a>
-                <a href="#"><img src="{{asset("images/footer-twitter.png")}}" alt="Logo Twitter"></a>
-                <a href="#"><img src="{{asset("images/footer-pinterest.png")}}" alt="Logo Pinterest"></a>
+                <a href="#"><img src="{{asset("images/footer-twitter.png")}}" alt="Logo Facebook"></a>
+                <a href="#"><img src="{{asset("images/footer-facebook.png")}}" alt="Logo Twitter"></a>
                 <a href="#"><img src="{{asset("images/footer-periscope.png")}}" alt="Logo Pinterest"></a>
+                <a href="#"><img src="{{asset("images/footer-pinterest.png")}}" alt="Logo Pinterest"></a>
             </div>
         </div>
     </div>
