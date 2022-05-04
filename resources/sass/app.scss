@@ -1,2 +1,92 @@
 // 
 @import 'partials/common.scss';
+
+
+    
+.header{
+        justify-content:space-around ;
+        display: flex;
+        height: 15vh;
+        ul {
+            height:100%;
+            align-self: center;
+            display: flex;  
+            justify-content: end 
+            
+        }
+        
+        li{
+            list-style-type: none;
+            padding: 0.5rem;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            align-self: center;
+            line-height: 12vh;
+            a{
+                text-decoration: none;
+                
+                color: black;
+        
+            }
+        
+            &:active,
+            &.active{
+                border-bottom: 5px solid blue;
+            }
+        }
+    }
+    
+
+.wrapper{
+    background-color: #303030e1;
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .contacts-wrapper {
+    height: 480px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    }
+    .dc-logo img{
+    width: 90%;
+    }
+    .footer-bottom {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    }
+    div a, div span {
+    padding: .5rem;
+    color: #2d39e2;
+    
+    }
+    .wrapper li {
+    margin-bottom: .7rem;
+    list-style-type: none;
+    }
+    .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .social-media button {
+    padding: 0.7rem;
+    border: 3px solid #3482ca;
+    background-color: #666464e1;
+    color: white;
+    }
+
+.MenuTop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
