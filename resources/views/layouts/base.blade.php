@@ -11,7 +11,7 @@
 <body>
 
 @include('partials.header')
-
+@include('partials.jumbo')
 <main>
     @yield('content')                        {{--  fornisco una struttura base, dove posso mettere contenuto dall'esterno --}}
 </main>
