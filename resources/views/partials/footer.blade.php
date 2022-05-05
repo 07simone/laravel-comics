@@ -54,7 +54,7 @@
     </div>
     <div class="footer-bottom">
         <div class="social-media">
-            <button>Sign-up now!</button>
+            <button>SIGN-UP-NOW!</button>
             <div>
                 <span>
                     Follow Us
