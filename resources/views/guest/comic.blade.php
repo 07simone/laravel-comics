@@ -63,7 +63,6 @@
                     <h5>Written by:</h5>
                     @foreach ($fumetto['writers'] as $item)
                     {{$item}}
-                    
                     @endforeach
                 </div>
                 

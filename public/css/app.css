@@ -14312,6 +14312,10 @@ body {
   height: 14vh;
 }
 
+.jumbotron-bottom {
+  margin-top: 8rem;
+}
+
 .price {
   width: 100%;
   background-color: greenyellow;
@@ -14339,6 +14343,7 @@ body {
 }
 
 .thumbnails {
+  margin-top: 8rem;
   background-color: rgb(206, 203, 203);
 }
 
@@ -14411,10 +14416,4 @@ div a, div span {
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 6rem;
-}
-
-.wrapper-img {
-  margin-right: 15px;
-  width: calc((100% - 90px) / 6);
 }

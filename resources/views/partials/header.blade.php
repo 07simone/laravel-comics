@@ -4,11 +4,11 @@
             <li>
                 <a href="#">CHARACTERS</a>
             </li>
-            <li class="{{Route::currentRouteName() == 'guest.comics' ? 'active' : ''}}">
-                <a>COMICS</a>
-            </li>
             <li class="{{Route::currentRouteName() == 'guest.home-page' ? 'active' : ''}}">
-                <a href="{{route('home-page')}}">MOVIES</a>
+                <a  href="{{route('home-page')}}">COMICS</a>
+            </li>
+            <li>
+                <a href="#">MOVIES</a>
             </li>
             <li>
                 <a href="#">TV</a>
